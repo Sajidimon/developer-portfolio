@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* navigation design started from here */
+
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner section styles */
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+/* about-info-container styles */
+
+.about-info-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}

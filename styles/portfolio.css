@@ -204,4 +204,58 @@ main {
 .cv-download{
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 130px;
 }
+
+/* contact us design started from here */
+
+
+footer{
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+footer .section-title{
+    text-align: left;
+}
+
+.contact-us{
+    display: flex;
+    gap: 117px;
+}
+
+footer p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 30px 0;
+
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.message-us input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-top: 24px;
+    border: 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.message-us input[type="submit"]{
+    margin-top: 24px;
+}
+
+
+::placeholder{
+
+    padding: 18px 30px 18px;
+    
+    }
+
+.message-us input{
+    height: 64px;
+}
+

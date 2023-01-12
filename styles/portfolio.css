@@ -265,9 +265,29 @@ textarea {
 /* responsive styles started from here */
 
 @media screen and (max-width:576px) {
-    .skills-container, .resume-content {
+    .skills-container, 
+    .resume-content, 
+    .about-info-container, 
+    .contact-us,
+    .banner {
         flex-direction: column;
         padding: 0 20px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .about {
+        padding:30px;
+    }
+
+    .contact-us {
+        gap: 50px;
+    }
+
+    footer {
+        padding: 10px;
     }
 }
 

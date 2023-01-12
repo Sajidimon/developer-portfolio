@@ -18,7 +18,7 @@
     font-size: 20px;
 }
 
-section{
+section {
     margin-top: 130px;
 }
 
@@ -147,14 +147,14 @@ main {
     padding: 30px;
 }
 
-.skill-title{
+.skill-title {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
     margin: 30px 0 20px 0;
 }
 
-.skill-description{
+.skill-description {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
@@ -162,46 +162,47 @@ main {
 
 /* resume section styles */
 
-.resume-content{
+.resume-content {
     display: flex;
     gap: 24px;
 }
 
-.resume-title{
+.resume-title {
     color: #474747;
     font-weight: 700;
     font-size: 30px;
 }
-.resume-content .hr{
+
+.resume-content .hr {
     margin: 30px 0;
     border: 1px solid #D1D1D1
 }
 
-.resume-content h3{
+.resume-content h3 {
     margin-bottom: 30px;
 }
 
-.resume-item h4{
+.resume-item h4 {
     color: #474747;
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-.resume-item h5{
+.resume-item h5 {
     color: #757575;
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.resume-item p{
+.resume-item p {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
 }
 
-.cv-download{
+.cv-download {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 130px;
@@ -210,21 +211,21 @@ main {
 /* contact us design started from here */
 
 
-footer{
+footer {
     background: #FFF8F3;
     padding: 130px 200px;
 }
 
-footer .section-title{
+footer .section-title {
     text-align: left;
 }
 
-.contact-us{
+.contact-us {
     display: flex;
     gap: 117px;
 }
 
-footer p{
+footer p {
     color: #474747;
     font-size: 16px;
     font-weight: 400;
@@ -232,11 +233,13 @@ footer p{
 
 }
 
-footer a{
+footer a {
     text-decoration: none;
 }
 
-.message-us input[type="text"], input[type="email"], textarea{
+.message-us input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     margin-top: 24px;
     border: 0;
@@ -244,18 +247,17 @@ footer a{
     border-radius: 3px;
 }
 
-.message-us input[type="submit"]{
+.message-us input[type="submit"] {
     margin-top: 24px;
 }
 
 
-::placeholder{
+::placeholder {
 
     padding: 18px 30px 18px;
-    
-    }
 
-.message-us input{
-    height: 64px;
 }
 
+.message-us input {
+    height: 64px;
+}
